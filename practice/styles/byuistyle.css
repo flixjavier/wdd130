@@ -1,0 +1,12 @@
+/* all the imported fonts has to be at the top of the css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* To reference a file with a font, have to use @font-face */
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
+
+body{
+    font-family:'Roboto', sans-serif;
+
+}
