@@ -1,0 +1,25 @@
+body{
+    margin: 0 auto;
+}
+nav{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+nav img{
+    width: 100%;
+    margin: 0 auto;
+}
+div{
+    margin: 0 auto;
+    background-color: #5e5d5d;
+    text-align: center;
+    padding: 10px 0;
+}
+#hero-box img{
+    display: inline-block;
+    width: 15%;
+    border-radius: 50%;
+    border: 15px solid #3e3e3e;
+    margin-left: 50px;
+    margin-right: 50px;
+}
