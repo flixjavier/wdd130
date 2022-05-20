@@ -1,13 +1,21 @@
 body{
     margin: 0 auto;
 }
-nav{
+header{
+    margin:0px auto;
+    padding-bottom: 0px;
+    border: 0px;
+}
+main{
+    margin: 0px auto;
+    border: 0px;
+}
+/* nav{
     margin: 0 auto;
     padding: 0 auto;
-}
-nav img{
+} */
+header img{
     width: 100%;
-    margin: 0 auto;
 }
 div{
     margin: 0 auto;
