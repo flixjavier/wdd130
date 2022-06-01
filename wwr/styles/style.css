@@ -1,9 +1,10 @@
 /* Font */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
 
 :root{
     --body-font: Ubuntu, sans-serif;
     --headline-font: Montserrat, sans-serif;
+    --message-font: Roboto, sans-serif;
 }
 /* Content */
 #content{
@@ -39,7 +40,7 @@ main selection img{
     padding: 35px;
 }
 .msg h2{
-    font-family: var(--headline-font);
+    font-family: var(--message-font);
 }
 .msp p{
     font-size: 0.8em;
