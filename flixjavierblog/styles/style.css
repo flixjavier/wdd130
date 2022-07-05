@@ -10,7 +10,7 @@
 #content{
     max-width: 1700px;
     margin: 0 auto; 
-    border: 1px solid black
+    /* border: 1px solid black */
 }
 body{
     font-family: var(--body-font);
@@ -23,16 +23,43 @@ body{
 header{
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: #3DADFF;
+    background-color: #122E57;
 }
 nav{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-around;
+}
+#biology-link{
+    color: #ffffff;
+    font-family: var(--headline-font);
+    font-weight: bold;
     margin: auto;
-    justify-items: center;
+    border-right: 5px solid #14161C;
+    padding: 5px;
+    text-decoration: none;
+}
+#biology-link:hover{
+    background-color: #98FDFE;
+    color: #14161C;
+}
+
+#programming-link{
+    color: #ffffff;
+    font-family: var(--headline-font);
+    font-weight: bold;
+    margin: auto;
+    border-right: 5px solid #14161C;
+    padding: 5px;
+    text-decoration: none;
+}
+#programming-link:hover{
+    background-color: #98FDFE;
+    color: #14161C;
 }
 #social{
-    text-align: right;
+    text-align: left;
+    text-decoration: none;
+    margin: auto;
 }
 
 #hero-box{
@@ -105,18 +132,60 @@ nav{
     color: #FFFFFF;
 }
 
-.book, .join{
-    background-color:#1c496b;
-    color: #FFFFFF;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 15px 30px;
-    margin-top: 50px;
-    border-radius: 5px;
+#about-us{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    padding: 10px;
+    margin: auto;
 }
-.book:hover, .join:hover{
-    background-color: #7DC4D4;
-    color: #1c496b;
+
+#msg-img{
+    width: 500px;
+    grid-area: 1/2/3/3;
+    padding: 10px;
+}
+#about-us p{
+    font-family: var(--text-font);
+    font-weight: 900;
+    grid-area: 2/1/3/1;
+}
+
+footer{
+    background-color: #4774F1;
+    height: 200px;
+}
+#flixjavier-logo2{
+    width: 150px;
+    filter: contrast(150%);
+}
+
+#footer-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    align-items: center; 
+}
+.pages{
+    color: #0E141A;
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+}
+
+.pages:hover{
+    color: #FFFFFF;
+}
+
+#disclaimer{
+    background-color: #122E57;
+    color: #FFFFFF;
+    text-align: center;
+    margin: auto;
+    font-size: 0.5em;
+    grid-area: 2/1/3/4;
+    text-decoration: none;
+    padding: 10px;
 }
 
 
