@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Felix Flores">
-    <link type="text/css" rel="stylesheet" href="#">
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
     <title>Something about Biology</title>
 </head>
 <body>
@@ -15,17 +15,17 @@
                 <img id="flixjavier-logo" src="images/bloglogo.png" alt="logo">
             </a>
             <nav>
-                <a href="something-about-biology.html">Something about Biology</a>
-                <a href="programming-relative.html">Programming is all Relative</a>
+                <a id="biology-link" href="something-about-biology.html">Something about Biology</a>
+                <a id="programming-link" href="programming-relative.html">Programming is all Relative</a>
                 <div id="social">
                     <a href="">
-                        <img id="facebook" src="#" alt="Facebook">
+                        <img id="facebook" src="images/facebook50px.png" alt="Facebook">
                     </a>
                     <a href="">
-                        <img id="instagram" src="#" alt="Instagram">
+                        <img id="instagram" src="images/instagram-48px.png" alt="Instagram">
                     </a>
                     <a href="">
-                        <img id="tiktok" src="#" alt="TikTok">
+                        <img id="tiktok" src="images/tiktok-50.png" alt="TikTok">
                     </a>
                 </div>
             </nav>
@@ -48,43 +48,56 @@
                     <iframe width="280" height="150" src="https://www.youtube.com/embed/VGA1-4aZkKM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </aside>
-            <section id="post1">
-                <h2>Post 1</h2>
-                <p>Date</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempora dolore laudantium. Perspiciatis, quaerat ab laudantium tenetur error minus voluptatibus. Quis veniam quaerat eos cumque error doloribus labore, fugiat rerum.</p>
-                <!-- <iframe></iframe> The post can be a youtube video-->
-            </section>
-            <section id="post2">
-                <h2>Post 2</h2>
-                <p>Date</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempora dolore laudantium. Perspiciatis, quaerat ab laudantium tenetur error minus voluptatibus. Quis veniam quaerat eos cumque error doloribus labore, fugiat rerum.</p>
-                <!-- <iframe></iframe> The post can be a youtube video-->
-            </section>
-            <section id="post3">
-                <h2>Post 3</h2>
-                <p>Date</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempora dolore laudantium. Perspiciatis, quaerat ab laudantium tenetur error minus voluptatibus. Quis veniam quaerat eos cumque error doloribus labore, fugiat rerum.</p>
-                <!-- <iframe></iframe> The post can be a youtube video-->
-            </section>
+            <button class="accordion">Title 1</button>
+            <div class="panel">
+                <section id="post1">
+                    <h2>Title</h2>
+                    <p>Date</p>
+                    <p>Abstract: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam aut nostrum, modi ipsa id autem quaerat fugiat mollitia, fuga officia sapiente, accusamus eveniet rem. Reprehenderit a voluptas magni sunt enim!</p>
+                    <!-- <iframe width="280" height="150" src="https://www.youtube.com/embed/QtLwpx2yJuc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                </section>    
+            </div>
+            <button class="accordion">Title 2</button>
+            <div class="panel">
+                <section id="post2">
+                    <h2>Title</h2>
+                    <p>Date</p>
+                    <p>Abstract: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam aut nostrum, modi ipsa id autem quaerat fugiat mollitia, fuga officia sapiente, accusamus eveniet rem. Reprehenderit a voluptas magni sunt enim!</p>
+                    <!-- <iframe width="280" height="150" src="https://www.youtube.com/embed/QtLwpx2yJuc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                </section>
+            </div>
+            <button class="accordion">Title 3</button>
+            <div class="panel">
+                <section id="post3">
+                    <h2>Title</h2>
+                    <p>Date</p>
+                    <p>Abstract: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam aut nostrum, modi ipsa id autem quaerat fugiat mollitia, fuga officia sapiente, accusamus eveniet rem. Reprehenderit a voluptas magni sunt enim!</p>
+                    <!-- <iframe width="280" height="150" src="https://www.youtube.com/embed/QtLwpx2yJuc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                </section>
+            </div>
         </main>
         <footer>
-            <div>
+            <div id="footer-content">
                 <a href="index.html" id="logo-link2">
                     <img id="flixjavier-logo2" src="images/bloglogo.png" alt="logo">
                 </a>
-                <div id="pages">
-                    <a href="">Link 1</a>
-                    <a href="">Link 2</a>
-                    <a href="site-plan.html">Site Plan</a>
-                </div>
+                <a class="pages" href="">Link 1</a>
+                <a class="pages" href="">Link 2</a>
+                <a class="pages" href="site-plan.html">Site Plan</a>
             </div>
             <div id="disclaimer">
                 <h4>Disclaimer</h4>
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus aut assumenda fugiat pariatur numquam odio et voluptates sint, voluptas suscipit ipsam rerum accusantium tenetur? Quaerat doloribus facilis adipisci voluptas cum.
                 </p>
+                <div id="icons">
+                    <a target="_blank" href="https://icons8.com/icon/8818/facebook">Facebook</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+                    <a target="_blank" href="https://icons8.com/icon/Xy10Jcu1L2Su/instagram">Instagram</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+                    <a target="_blank" href="https://icons8.com/icon/118638/tiktok">TikTok</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+                </div>
             </div>
         </footer>
     </div>
+    <script type="text/javascript" src="javascript/something-about-biology.js"></script>
 </body>
 </html>
