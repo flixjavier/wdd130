@@ -194,6 +194,47 @@ footer{
 }
 
 /**something about biology page**/
+#content-page2{
+    max-width: 1400px;
+    margin-right: 280px; /* Same as the width of the sidebar */
+    padding: 0px 10px;   
+}
+/*sidenav */
+/* The sidebar menu */
+#sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 280px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #122E57; /* Black */
+    overflow-x:hidden; /* Disable horizontal scroll */
+    margin-top: 8px;
+    padding-top: 20px; 
+  }
+#sidenav h3{
+    margin-top: -20px; 
+    color: #3DADFF;
+    text-align: center;
+}
+
+  /* The navigation menu links */
+#sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF;
+    display: block;
+  }
+
+  /* When you mouse over the navigation links, change their color */
+#sidenav a:hover {
+    color: #0E141A;
+    background-color: #3DADFF;
+  }
+
+/*acoordion*/
 .accordion {
     background-color: #eee;
     color: #444;
@@ -231,6 +272,40 @@ footer{
     transition: max-height 0.2s ease-out;
   }
 
+
+/**Responsive design using @media query*/
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-width: 700px) {
+    header{
+        display: flex;
+    }
+    #social img{
+        width: 25px;
+        height: auto;
+    }
+    nav{
+        display: block;
+        padding-top: 10px;
+    }
+    nav a{
+        font-size: 00.8em;
+    }
+    #content-page2{
+        max-width: 500px;
+        margin-right: 160px; /* Same as the width of the sidebar */
+        padding: 0px 10px;   
+    }
+    #sidenav {padding-top: 15px; height: 35%;
+        width: 160px;}
+    #sidenav h3{font-size: 0.8em; padding-top: 10px;}
+
+    #sidenav a {font-size: 18px;}
+    iframe {display: none;}
+    #footer-content a{
+        display: flex;
+        font-size: 00.8em;
+    }
+  }
 
 
 
