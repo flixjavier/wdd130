@@ -15,7 +15,9 @@ Fonts are separated by a | */
   --accent3-color:#FFFFFF;
 
   /* change the values below to your chosen font(s) */
+  --body-font: 'Ubuntu', Arial, sans-serif;
   --heading-font: 'Ubuntu', Arial, sans-serif;
+  --message-font: 'Roboto', Arial, sans-serif;
   --paragraph-font: 'Lato', Helvetica, sans-serif;
 
 
