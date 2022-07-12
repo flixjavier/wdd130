@@ -1,7 +1,8 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@400;700&display=swap');
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=PT+Sans:ital@1&family=Roboto&family=Ubuntu&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -14,8 +15,8 @@ Fonts are separated by a | */
   --accent3-color:#FFFFFF;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: Roboto, Arial, sans-serif;
-  --paragraph-font: Roboto+Slab, Helvetica, sans-serif;
+  --heading-font: 'Ubuntu', Arial, sans-serif;
+  --paragraph-font: 'Lato', Helvetica, sans-serif;
 
 
   /* these colors below should be chosen from among your palette colors above */
@@ -29,7 +30,6 @@ Fonts are separated by a | */
   --nav-hover-link-color: #0E141A;
   --nav-hover-background-color: #98FDFE;
 }
-
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
@@ -69,6 +69,7 @@ header > h1, header > h2 {
 
 p {
   font-family: var(--paragraph-font);
+  font-weight: 900;
   color: var(--paragraph-color);
   padding: 1em;
 }

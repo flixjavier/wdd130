@@ -1,3 +1,11 @@
+function openNav() {
+    document.getElementById("sidenav2").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("sidenav2").style.width = "0";
+  }
+
 var acc = document.getElementsByClassName("accordion");
 var i;
 
