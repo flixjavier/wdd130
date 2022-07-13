@@ -249,11 +249,20 @@ footer{
     background-color: #3DADFF;
   }
 
+#welcome-msg p{
+    text-align: justify;
+}
+
 #welcome-img{
-    width: 40%;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
     border: 2px solid #777;
-    float: right;
     padding: 5px;
+    border-radius: 20%;
+    float: right;
+    margin-top: 80px;
+    margin-left: 15px;
 }
 
 /*acoordion*/
@@ -271,12 +280,12 @@ footer{
     font-size: 15px;
     transition: 0.4s;
   }
-  .active, .accordion:hover {
+.active, .accordion:hover {
     background-color: #0E141A;
     color:#3DADFF;
   }
   
-  .accordion:after {
+.accordion:after {
     content: '\002B';
     color: #777;
     font-weight: bold;
@@ -284,11 +293,11 @@ footer{
     margin-left: 5px;
   }
   
-  .active:after {
+.active:after {
     content: "\2212";
   }
   
-  .panel {
+.panel {
     padding: 0 18px;
     background-color: #FFFFFF;
     color:#14161C;
@@ -299,11 +308,11 @@ footer{
 
 
   /**Progamming is al relative page**/
-  span{
+span{
     font-family: var(--text-font);
     font-weight: 800;
   }
-  .sidenav2 {
+.sidenav2 {
     height: 100%;
     width: 0;
     position: fixed;
@@ -316,7 +325,7 @@ footer{
     padding-top: 60px;
   }
   
-  .sidenav2 a {
+.sidenav2 a {
     font-family: var(--text-font);
     font-weight: 800;
     padding: 8px 8px 8px 32px;
@@ -375,6 +384,7 @@ footer{
         font-size: 00.8em;
     }
     iframe {display: none;}
+    #welcome-img{display: none;}
     #footer-content a{
         display: flex;
         font-size: 00.6em;
